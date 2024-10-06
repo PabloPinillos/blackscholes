@@ -7,12 +7,22 @@ This repository provides an American Call Option pricer using the **Black-Schole
 To install and build the project, follow these steps:
 
 1. Create a `build` directory in the project root:
+```bash
    mkdir build
+```
 2. Navigate to the `build` directory:
+```bash
    mkdir build
+```
 3. Run cmake to generate the `build system`:
+```bash
    cmake ..
+```
 4. Build and install the project
+```bash
    cmake --install . --config Release
-5. Run from \build\bin\Release`
-   `blackscholes.exe`
+```
+5. Run from \build\bin\Release
+```bash
+   blackscholes.exe
+```
